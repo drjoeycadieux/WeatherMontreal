@@ -3,12 +3,17 @@ body {
   margin: 0;
 }
 header {
-  padding: 100px;
+  padding: 150px;
   background-color: royalblue;
   text-align: center;
   font-weight: bold;
   color: white;
   font-size: 40px;
+}
+.home-content {
+  padding: 100px;
+  background-color: #303846;
+  color: white;
 }
 .inner {
   padding: 5px;
