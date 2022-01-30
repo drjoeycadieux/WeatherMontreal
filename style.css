@@ -2,20 +2,46 @@ body {
   padding: 0;
   margin: 0;
 }
+hr {
+  color: black;
+}
 header {
   padding: 150px;
   background-color: royalblue;
+}
+header h2 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+header p {
+  color: rgb(7, 10, 14);
   text-align: center;
   font-weight: bold;
-  color: white;
-  font-size: 40px;
-}
-.home-content {
-  padding: 100px;
-  background-color: #303846;
-  color: white;
 }
 .inner {
   padding: 5px;
   background-color: firebrick;
+}
+.footer {
+  padding: 25px;
+  background-color: #303846;
+  text-align: center;
+  font-weight: bold;
+}
+.footer h2 {
+  color: lightslategray;
+}
+ul {
+  display: block;
+}
+li {
+  display: inline;
+  margin: 10px;
+}
+a {
+  color: slategray;
+}
+a:hover {
+  color: lightslategray;
 }
