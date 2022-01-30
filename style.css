@@ -1,0 +1,16 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+header {
+  padding: 100px;
+  background-color: royalblue;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+}
+.inner {
+  padding: 5px;
+  background-color: firebrick;
+}
