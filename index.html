@@ -4,9 +4,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-  <meta name="google-site-verification" content="ZTcETtjROMDhM1QR-j8nNRBJKrmnsEvFt6_BM68omUU" />
+	<meta name="google-site-verification" content="ZTcETtjROMDhM1QR-j8nNRBJKrmnsEvFt6_BM68omUU" />
 	<meta name="google-signin-scope" content="profile email">
-	<meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+	<meta name="google-signin-client_id" content="https://329406393212-72198rctg5maaphtetntocb3o080g86r.apps.googleusercontent.com/">
 	<script src="https://apis.google.com/js/platform.js" async defer>
 
 	</script>
@@ -79,9 +79,23 @@
   <h2>Live Stream</h2>
    <div id="ytplayer"></div>
    <script src="js/config/liveBroadcastsetup.js"></script>
-
-    <iframe width='560' height='315' src='https://www.youtube.com/embed/live_stream?channel=' frameborder='0' allowfullscreen></iframe> 
+    <iframe width='560' height='315' src='https://www.youtube.com/embed/live_stream? frameborder='0' allowfullscreen></iframe> 
 </div>
-    <script src="script.js"></script>
+ <script>
+  
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.5/firebase-app.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyBiBTjRD8MaADqAIPwSn0vnQGw4H-Xw6RU",
+    authDomain: "wxmontreal.firebaseapp.com",
+    projectId: "wxmontreal",
+    storageBucket: "wxmontreal.appspot.com",
+    messagingSenderId: "329406393212",
+    appId: "1:329406393212:web:4aaacfeebd32a67f2552f9"
+  };
+
+  
+  const app = initializeApp(firebaseConfig);
+</script>
   </body>
 </html>
