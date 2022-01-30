@@ -12,7 +12,7 @@ function onYouTubePlayerAPIReady() {
   var request = gapi.client.youtube.search.list({
     q: q,
     part: 'snippet',
-    channelId: chaser.youtubeID,
+    channelId: channelId,
     maxResults: 1,
     eventType: 'live',
     type: 'video',
